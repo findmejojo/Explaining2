@@ -15,10 +15,10 @@ if userDatabase[player.Name] then
         if scriptFunction then
             scriptFunction()
         else
-            warn("Failed to load and execute external script.")
+            print("Failed to load and execute external script.")
         end
     else
-        warn("Failed to fetch external script content.")
+        print("Failed to fetch external script content.")
     end
 else
     game.Players.LocalPlayer:Kick("Remember, sharing accounts is not allowed and your whitelist will be revoked.")
